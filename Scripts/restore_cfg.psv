@@ -72,11 +72,11 @@ S|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
 P|${HOME}/.config/kitty|kitty.conf|kitty
 
  Shell 
-P|${HOME}/.config|fish|fish
-P|${HOME}|.zshrc .user.zsh|zsh  
-P|${HOME}|.p10k.zsh|zsh zsh-theme-powerlevel10k
-P|${HOME}/.config/starship|starship.toml|starship
-S|${HOME}|.zshenv|zsh
+I|${HOME}/.config|fish|fish
+I|${HOME}|.zshrc .user.zsh|zsh  
+I|${HOME}|.p10k.zsh|zsh zsh-theme-powerlevel10k
+I|${HOME}/.config/starship|starship.toml|starship
+I|${HOME}|.zshenv|zsh
 
  Vim 
 P|${HOME}/.config/vim|vimrc|vim
