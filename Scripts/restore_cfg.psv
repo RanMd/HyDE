@@ -63,8 +63,8 @@ O|${HOME}/.local/share|wallbash|bash imagemagick
 
 
  Editor 
-P|${HOME}/.config/Code - OSS/User|settings.json|code
-P|${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
+I|${HOME}/.config/Code - OSS/User|settings.json|code
+I|${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
 P|${HOME}/.config/VSCodium/User|settings.json|vscodium
 
  Bar 
@@ -77,29 +77,28 @@ P|${HOME}/.config|lsd|lsd
 P|${HOME}/.config|fastfetch|fastfetch
 O|${HOME}/.local/share/fastfetch/presets|hyde|fastfetch
 
-S|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
-P|${HOME}/.config/kitty|kitty.conf|kitty
+I|${HOME}/.config/kitty|hyde.conf theme.conf|kitty
+I|${HOME}/.config/kitty|kitty.conf|kitty
 
  Shell 
-S|${HOME}/.config/fish|conf.d functions completions|fish
-P|${HOME}/.config/fish|config.fish|fish
-P|${HOME}/.config/starship|starship.toml|starship
+I|${HOME}/.config/fish|conf.d functions completions|fish
+I|${HOME}/.config/fish|config.fish|fish
+I|${HOME}/.config/starship|starship.toml|starship
 
+I|${HOME}|.zshenv|zsh
+I|${HOME}/.config/zsh|.zshenv|zsh
+I|${HOME}/.config/zsh/conf.d|hyde 00-hyde.zsh|zsh
+I|${HOME}/.config/zsh/functions|error-handlers.zsh|zsh 
+I|${HOME}/.config/zsh/functions|fzf.zsh|zsh fzf
+I|${HOME}/.config/zsh/functions|duf.zsh|zsh duf
+I|${HOME}/.config/zsh/functions|eza.zsh|zsh eza
+I|${HOME}/.config/zsh/functions|bat.zsh|zsh bat
+I|${HOME}/.config/zsh/completions|fzf.zsh|zsh fzf
+I|${HOME}/.config/zsh/completions|hydectl.zsh|zsh
+>>>>>>> 30214a61 (Add my config)
 
-S|${HOME}|.zshenv|zsh
-S|${HOME}/.config/zsh|.zshenv|zsh
-S|${HOME}/.config/zsh/conf.d|hyde 00-hyde.zsh|zsh
-S|${HOME}/.config/zsh/functions|error-handlers.zsh|zsh 
-S|${HOME}/.config/zsh/functions|fzf.zsh|zsh fzf
-S|${HOME}/.config/zsh/functions|duf.zsh|zsh duf
-S|${HOME}/.config/zsh/functions|eza.zsh|zsh eza
-S|${HOME}/.config/zsh/functions|bat.zsh|zsh bat
-S|${HOME}/.config/zsh/completions|fzf.zsh|zsh fzf
-S|${HOME}/.config/zsh/completions|hydectl.zsh|zsh
-
-P|${HOME}/.config/zsh|.zshrc user.zsh prompt.zsh plugin.zsh|zsh
-P|${HOME}/.config/zsh|.p10k.zsh|zsh zsh-theme-powerlevel10k
-
+I|${HOME}/.config/zsh|.zshrc user.zsh prompt.zsh|zsh
+I|${HOME}/.config/zsh|.p10k.zsh|zsh zsh-theme-powerlevel10k
 
  Vim 
 P|${HOME}/.config/vim|vimrc|vim
@@ -120,17 +119,17 @@ S|${HOME}/.local/share|dolphin|dolphin
 P|${HOME}/.config|libinput-gestures.conf|libinput-gestures
 
  Wayland 
-P|${HOME}/.config|spotify-flags.conf|spotify
-P|${HOME}/.config|code-flags.conf|code
-P|${HOME}/.config|code-flags.conf|visual-studio-code-bin
-P|${HOME}/.config|codium-flags.conf|vscodium
-P|${HOME}/.config|electron-flags.conf|electron
+I|${HOME}/.config|spotify-flags.conf|spotify
+I|${HOME}/.config|code-flags.conf|code
+I|${HOME}/.config|code-flags.conf|visual-studio-code-bin
+I|${HOME}/.config|codium-flags.conf|vscodium
+I|${HOME}/.config|electron-flags.conf|electron
 
  Notifications 
 S|${HOME}/.config|dunst|dunst
 
  Gaming 
-S|${HOME}/.config|MangoHud|mangohud
+I|${HOME}/.config|MangoHud|mangohud
 
  Launcher 
 P|${HOME}/.config|rofi|rofi
