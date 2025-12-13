@@ -65,7 +65,7 @@ O|${HOME}/.local/share|wallbash|bash imagemagick
  Editor 
 I|${HOME}/.config/Code - OSS/User|settings.json|code
 I|${HOME}/.config/Code/User|settings.json|visual-studio-code-bin
-P|${HOME}/.config/VSCodium/User|settings.json|vscodium
+I|${HOME}/.config/VSCodium/User|settings.json|vscodium
 
  Bar 
 P|${HOME}/.config/waybar|user-style.css config.jsonc theme.css style.css|waybar
@@ -95,15 +95,14 @@ I|${HOME}/.config/zsh/functions|eza.zsh|zsh eza
 I|${HOME}/.config/zsh/functions|bat.zsh|zsh bat
 I|${HOME}/.config/zsh/completions|fzf.zsh|zsh fzf
 I|${HOME}/.config/zsh/completions|hydectl.zsh|zsh
->>>>>>> 30214a61 (Add my config)
 
-I|${HOME}/.config/zsh|.zshrc user.zsh prompt.zsh|zsh
+I|${HOME}/.config/zsh|.zshrc user.zsh prompt.zsh plugin.zsh|zsh
 I|${HOME}/.config/zsh|.p10k.zsh|zsh zsh-theme-powerlevel10k
 
  Vim 
-P|${HOME}/.config/vim|vimrc|vim
-S|${HOME}/.config/vim/colors|wallbash.vim|vim
-S|${HOME}/.config/vim|hyde.vim|vim
+I|${HOME}/.config/vim|vimrc|vim
+I|${HOME}/.config/vim/colors|wallbash.vim|vim
+I|${HOME}/.config/vim|hyde.vim|vim
 
  File Explorer 
 P|${HOME}/.local/state|dolphinstaterc|dolphin
@@ -129,7 +128,7 @@ I|${HOME}/.config|electron-flags.conf|electron
 S|${HOME}/.config|dunst|dunst
 
  Gaming 
-I|${HOME}/.config|MangoHud|mangohud
+S|${HOME}/.config|MangoHud|mangohud
 
  Launcher 
 P|${HOME}/.config|rofi|rofi

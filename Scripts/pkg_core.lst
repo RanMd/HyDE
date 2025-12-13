@@ -35,7 +35,7 @@ wlogout                                                # logout menu
 grim                                                   # screenshot tool
 hyprpicker                                             # color picker
 slurp                                                  # region select for screenshot/screenshare
-satty                                                  # Modern Screenshot Annotation
+# satty                                                  # Modern Screenshot Annotation
 cliphist                                               # clipboard manager
 wl-clip-persist                                        # Keep Wayland clipboard even after programs close (avoids crashes)
 hyprsunset                                             # blue light filter
@@ -50,10 +50,10 @@ parallel                                               # for parallel processing
 jq                                                     # for json processing
 imagemagick                                            # for image processing
 qt5-imageformats                                       # for dolphin image thumbnails
-ffmpegthumbs                                           # for dolphin video thumbnails
-kde-cli-tools                                          # for dolphin file type defaults
+# ffmpegthumbs                                           # for dolphin video thumbnails
+# kde-cli-tools                                          # for dolphin file type defaults
 libnotify                                              # for notifications
-noto-fonts-emoji                                       # emoji font
+# noto-fonts-emoji                                       # emoji font
 
 # --------------------------------------------------- // Theming
 nwg-look                                               # gtk configuration tool
@@ -67,7 +67,7 @@ qt6-wayland                                            # wayland support in qt6
 # --------------------------------------------------- // Applications
 firefox                                                # browser
 kitty                                                  # terminal
-dolphin                                                # kde file manager
+# dolphin                                                # kde file manager
 ark                                                    # kde file archiver
 unzip                                                  # extracting zip files
 vim                                                    # terminal text editor
@@ -76,9 +76,9 @@ nwg-displays                                           # monitor management util
 fzf                                                    # Command-line fuzzy finder
 
 # --------------------------------------------------- // Shell
-starship|zsh                                           # customizable shell prompt written in Rust
+# starship|zsh                                           # customizable shell prompt written in Rust
 # starship-git                                         # The cross-shell prompt for astronauts  
-starship|fish                                          # customizable shell prompt
+# starship|fish                                          # customizable shell prompt
 
 fastfetch                                              # system information fetch tool
 
