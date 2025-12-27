@@ -156,11 +156,26 @@ deploy_psv() {
                         print_log -g "[copy to backup]" " > " -y "[preserved]" -b " :: " "${pth}" + 208 " <--  " "${CfgDir}${tgt}/${cfg_chk}"
                     fi
                     ;;
+                "L")
+                    if [ ! -L "${pth}/${cfg_chk}" ]; then
+                        print_log -g "[copy to backup]" " > " -y "[linked]" -b " :: " "${pth}/${cfg_chk}" -r " <-- " "${CfgDir}${tgt}/${cfg_chk}"
+                        [ "${flg_DryRun}" -ne 1 ] && cp -r "${pth}/${cfg_chk}" "${BkpDir}${tgt}"
+                    fi
+
+
+                    [ "${flg_DryRun}" -ne 1 ] && ln -sf "${CfgDir}${tgt}/${cfg_chk}" "${pth}/${cfg_chk}" || true
+                    print_log -y "[linked]" -b " :: " "${pth}/${cfg_chk}" -r " <-- " "${CfgDir}${tgt}/${cfg_chk}"
+                    ;;
                 esac
             else
-                if [ "${ctlFlag}" != "B" ]; then
+                if [[ "${ctlFlag}" != "B" && "${ctlFlag}" != "L" ]]; then
                     [ "${flg_DryRun}" -ne 1 ] && cp -r "${CfgDir}${tgt}/${cfg_chk}" "${pth}"
                     print_log -y "[*populate*]" -b " :: " "${pth}" -r " <--  " "${CfgDir}${tgt}/${cfg_chk}"
+                fi
+
+                if [ "${ctlFlag}" == "L" ]; then
+                    [ "${flg_DryRun}" -ne 1 ] && ln -sf "${CfgDir}${tgt}/${cfg_chk}" "${pth}/${cfg_chk}"
+                    print_log -g "[*link*]" -b " :: " "${pth}" -r " <--  " "${CfgDir}${tgt}/${cfg_chk}"
                 fi
             fi
 
